@@ -96,6 +96,7 @@ function deleteMovieById(id) {
         return false;
     }
     getMovieList().splice(movieIndex, 1);
+    return true;
 }
 
 function sortMovies(compareFn) {
